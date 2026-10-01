@@ -1,0 +1,10 @@
+{
+  "appId": "zcode",
+  "installState": "installed",
+  "launchMode": "packaged",
+  "source": {
+    "kind": "github",
+    "url": "https://github.com/zai-org/ZCode"
+  },
+  "updatedAt": "2026-10-01T21:13:23.974Z"
+}

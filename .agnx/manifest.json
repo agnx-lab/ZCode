@@ -1,0 +1,41 @@
+{
+  "id": "zcode",
+  "name": "ZCode",
+  "version": "0.1.0",
+  "description": "Agnx 外置：Z.ai ZCode Web 工作台（整仓 + zcode --web Guest）",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./dist/index.js",
+  "icon": "./public/logo/icons/128x128.png",
+  "platforms": {
+    "desktop": "supported",
+    "web": "supported",
+    "mobile": "unsupported"
+  },
+  "sidecar": {
+    "supervised": true,
+    "ensureTool": ".agnx/tools/ensure-zcode.mjs",
+    "stateFile": "zcode.json",
+    "defaultPort": 3030
+  },
+  "guest": {
+    "kind": "web",
+    "auth": "none",
+    "preferStrategy": "auto"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "id": "zcode.open",
+        "title": "ZCode"
+      }
+    ],
+    "panels": [
+      {
+        "id": "zcode.main",
+        "title": "ZCode"
+      }
+    ]
+  }
+}
