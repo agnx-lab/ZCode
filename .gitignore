@@ -69,3 +69,7 @@ packages/desktop/.e2e-artifacts/
 packages/desktop/.e2e-cache/
 packages/desktop/.e2e-network-capture/
 .zcode-runtime/
+
+# Agnx 子应用胶水产物必须入库（上游裸 dist 规则会误伤 .agnx/dist）
+!.agnx/dist/
+!.agnx/dist/**
