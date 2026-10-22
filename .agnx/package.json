@@ -11,10 +11,15 @@
     "check:web-runtime": "node ./scripts/build-web-runtime.mjs --check"
   },
   "peerDependencies": {
-    "@getagnx/app-sdk": "*",
+    "@agnx-lab/app-sdk": "*",
     "react": "*",
     "react-native": "*",
     "react-native-unistyles": "*",
     "react-native-svg": "*"
+  },
+  "peerDependenciesMeta": {
+    "@agnx-lab/app-sdk": {
+      "optional": true
+    }
   }
 }
