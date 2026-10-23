@@ -12,7 +12,7 @@ import {
 import type {
   WorkspaceAppBrandLogoLoaderPanelProps,
   WorkspaceAppHostApi,
-} from "@getagnx/app-sdk";
+} from "@agnx-lab/app-sdk";
 import {
   ZCODE_APP_ID,
   ZCODE_DEFAULT_PORT,

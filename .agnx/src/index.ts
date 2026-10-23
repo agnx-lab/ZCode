@@ -1,7 +1,7 @@
 /**
  * 场景：ZCode Sub App 入口 — Guest（auth:none）+ ensure + 详情配置 + 薄 Agent 工具。
  */
-import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@agnx-lab/app-sdk";
 import {
   ZCODE_APP_ID,
   ZCODE_ENSURE_TOOL_REL,

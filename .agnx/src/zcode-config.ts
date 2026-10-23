@@ -1,5 +1,5 @@
 // 场景：ZCode 端口 / workspace / dataBaseDir / tokenMode 经 host.config 落盘。
-import type { WorkspaceAppConfigApi } from "@getagnx/app-sdk";
+import type { WorkspaceAppConfigApi } from "@agnx-lab/app-sdk";
 import {
   ZCODE_APP_ID,
   ZCODE_CONFIG_KEY,

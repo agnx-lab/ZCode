@@ -1,5 +1,5 @@
 // 场景：W3 — 极薄 Agnx Agent 工具：zcode_health / zcode_open / zcode_restart。
-import type { WorkspaceAppHostApi } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi } from "@agnx-lab/app-sdk";
 import {
   ZCODE_APP_ID,
   ZCODE_ENSURE_TOOL_REL,
